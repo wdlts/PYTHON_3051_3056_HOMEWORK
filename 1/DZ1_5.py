@@ -8,18 +8,10 @@
 import math
 
 
-def distance2d(a, b):
-
-    for i in a:
-        Xa = a[0]
-        Ya = a[1]
-    for i in b:
-        Xb = b[0]
-        Yb = b[1]
+def distance2d(Xa, Ya, Xb, Yb):
 
     distance = int(math.sqrt(((Xb-Xa)**2) + ((Yb - Ya)**2)) * 100) / 100
-
     print(distance)
 
 
-distance2d([int(input('Input Xa')), int(input('Input Ya'))], [int(input('Input Xb')), int(input('Input Yb'))])
+distance2d(int(input('Xa ')), int(input('Ya ')), int(input('Xb ')), int(input('Yb ')))

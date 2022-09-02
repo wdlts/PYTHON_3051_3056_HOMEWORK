@@ -6,9 +6,9 @@ def trueorfalse(X, Y, Z):
     right = (not X) and (not Y) and (not Z)
 
     if (left == right) is True:
-        print(True)
+        print('Утверждение истинно')
     else:
-        print(False)
+        print('Утверждение ложно')
 
 
-trueorfalse(bool(input('Input X ')), bool(input('Input Y ')), bool(input('Input Z ')))
+trueorfalse(bool(input('Введите значение для X ')), bool(input('Введите значение для Y ')), bool(input('Введите значение для Z ')))

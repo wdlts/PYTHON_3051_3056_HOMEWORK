@@ -4,13 +4,13 @@
 def coordrange (n):
 
     if n == 1:
-        print('x and y')
+        print('Диапазон координат: (x, y)')
     elif n == 2:
-        print('-x and y')
+        print('Диапазон координат: (-x, y)')
     elif n == 3:
-        print('-x and -y')
+        print('Диапазон координат: (-x, -y)')
     elif n == 4:
-        print('x and -y')
+        print('Диапазон координат: (x, -y)')
 
 
-coordrange(2)
+coordrange(int(input('Введите номер четверти (от 1 до 4) ')))

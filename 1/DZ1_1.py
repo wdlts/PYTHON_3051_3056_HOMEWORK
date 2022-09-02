@@ -8,10 +8,10 @@
 
 def dayofweek(n):
 
-    if 1 <= n >= 5:
-        print('YES')
+    if 1 <= n >= 6:
+        print('ДА')
     else:
-        print('NO')
+        print('НЕТ')
 
 
 dayofweek(int(input('Input day of week ')))
