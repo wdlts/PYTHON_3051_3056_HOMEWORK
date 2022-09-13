@@ -7,7 +7,7 @@
 
 def minusdecimal(listt):
 
-    decimalpartlist = [round(i-int(i), 10) for i in listt]      #здесь ограничился двумя знаками после запятой
+    decimalpartlist = [round(i-int(i), 10) for i in listt]      #здесь ограничился десятью знаками после запятой
     minfloat = min(decimalpartlist)
     maxfloat = max(decimalpartlist)
     result = maxfloat-minfloat
