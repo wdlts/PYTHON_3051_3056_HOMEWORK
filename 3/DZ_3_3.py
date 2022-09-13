@@ -7,12 +7,12 @@
 
 def minusdecimal(listt):
 
-    decimalpartlist = [round(i-int(i), 2) for i in listt]      #здесь ограничился двумя знаками после запятой
+    decimalpartlist = [round(i-int(i), 10) for i in listt]      #здесь ограничился двумя знаками после запятой
     minfloat = min(decimalpartlist)
     maxfloat = max(decimalpartlist)
     result = maxfloat-minfloat
-    print(round(result, 2))   #здесь тоже
+    print(round(result, 10))   #здесь тоже
 
 
-minusdecimal([1.10, 1.2, 3.1, 10.5])
+minusdecimal([1.10, 1.2, 3.1, 10.01])
 

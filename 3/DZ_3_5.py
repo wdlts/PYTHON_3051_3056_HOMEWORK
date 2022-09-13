@@ -25,4 +25,4 @@ def negafibonacci(n):
     print((resultposneg))
 
 
-negafibonacci(8)
+negafibonacci(10)
