@@ -11,7 +11,7 @@ def primefactor(n):
             n //= i
             factorlist.append(i)
 
-    return factorlist
+    print(factorlist)
 
 
-primefactor(988)
+primefactor(20)

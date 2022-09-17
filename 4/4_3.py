@@ -15,4 +15,4 @@ def unrepeated(lst):
     print([i for i in lst if counter(i) == 1])
 
 
-unrepeated([1, 1, 2, 3, 4, 6, 4, 5, 5])
+unrepeated([1, 1, 2, 3, 4, 5, 5])
