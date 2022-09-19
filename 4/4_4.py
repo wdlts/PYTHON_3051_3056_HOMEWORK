@@ -19,7 +19,7 @@ def polynominal(k):
     else:
         result = str(' + '.join(checkstr)) + ' = 0'
     f = open('file.txt', 'w')
-    f.write(str(result))
+    f.write(str(result.encode('utf-8')))
     print(result)
 
 
