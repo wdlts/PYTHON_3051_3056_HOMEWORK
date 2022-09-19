@@ -1,7 +1,7 @@
 listt = ['1', '2', '3',
          '4', '5', '6',
          '7', '8', '9']
-x0 = input('Выберите X или 0 ')
+x0 = input('Выберите X или 0 ').lower()
 
 while listt[0] == '1' or listt[1] == '2' or listt[2] == '3' or listt[3] == '4' \
         or listt[4] == '5' or listt[5] == '6' or listt[6] == '7' or listt[7] == '8' or listt[8] == '9':
