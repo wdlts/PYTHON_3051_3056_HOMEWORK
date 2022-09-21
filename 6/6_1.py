@@ -15,7 +15,7 @@
 #     summ = 0
 #     for i in range(len(n)):
 #         if n[i].isdigit():
-#             summ = summ + int(n[i])
+#             summ += int(n[i])
 #     print(summ)
 #
 #
@@ -36,7 +36,7 @@
 #     res = []
 #
 #     for i in range(n):
-#         res.append(((1 + (1 / (i+1))) ** (i+1))) # числа начинаются с 1, иначе деление на 0
+#         res.append(((1 + (1 / (i + 1))) ** (i + 1))) # числа начинаются с 1, иначе деление на 0
 #
 #     print(res)
 #     print(sum(res))
