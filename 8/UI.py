@@ -1,5 +1,5 @@
-import data_provider as prov
-import data_writer as dw
+import get_data as prov
+import write_data as dw
 
 
 def first_name_view():
@@ -24,3 +24,8 @@ def description_view():
     data = prov.description()
     dw.description_writer(data)
     return data
+
+
+def request_view():
+    word = prov.get_request()
+    return word
